@@ -1,0 +1,785 @@
+[0.000000] (-) TimerEvent: {}
+[0.001665] (hb_bot) JobQueued: {'identifier': 'hb_bot', 'dependencies': OrderedDict()}
+[0.001860] (hb_task2a) JobQueued: {'identifier': 'hb_task2a', 'dependencies': OrderedDict()}
+[0.001993] (hb_task2b) JobQueued: {'identifier': 'hb_task2b', 'dependencies': OrderedDict()}
+[0.002060] (hb_world) JobQueued: {'identifier': 'hb_world', 'dependencies': OrderedDict()}
+[0.002142] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.002297] (hb_bot) JobStarted: {'identifier': 'hb_bot'}
+[0.099600] (-) TimerEvent: {}
+[0.139224] (hb_task2a) JobStarted: {'identifier': 'hb_task2a'}
+[0.199762] (-) TimerEvent: {}
+[0.300441] (-) TimerEvent: {}
+[0.307713] (hb_task2b) JobStarted: {'identifier': 'hb_task2b'}
+[0.400592] (-) TimerEvent: {}
+[0.473146] (hb_world) JobStarted: {'identifier': 'hb_world'}
+[0.500845] (-) TimerEvent: {}
+[0.601476] (-) TimerEvent: {}
+[0.611015] (hb_bot) JobProgress: {'identifier': 'hb_bot', 'progress': 'cmake'}
+[0.611387] (hb_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/yolo/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_bot', '-DCMAKE_INSTALL_PREFIX=/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot'], 'cwd': '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'yolo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yolo'), ('OLDPWD', '/home/yolo/eyrc_hb/hb_task_2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yolo'), ('_', '/home/yolo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yolo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/yolo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yolo-HP-Laptop-15s-eq0xxx:@/tmp/.ICE-unix/1230,unix/yolo-HP-Laptop-15s-eq0xxx:/tmp/.ICE-unix/1230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a191e224_0690_4a94_92d6_c17c07b9ee8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63L2D2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble')]), 'shell': False}
+[0.701630] (-) TimerEvent: {}
+[0.802202] (-) TimerEvent: {}
+[0.902782] (-) TimerEvent: {}
+[1.003378] (-) TimerEvent: {}
+[1.103969] (-) TimerEvent: {}
+[1.204622] (-) TimerEvent: {}
+[1.305254] (-) TimerEvent: {}
+[1.405944] (-) TimerEvent: {}
+[1.506568] (-) TimerEvent: {}
+[1.607135] (-) TimerEvent: {}
+[1.707724] (-) TimerEvent: {}
+[1.808363] (-) TimerEvent: {}
+[1.909264] (-) TimerEvent: {}
+[2.009945] (-) TimerEvent: {}
+[2.110495] (-) TimerEvent: {}
+[2.111616] (hb_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.113490] (hb_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.114206] (hb_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.114457] (hb_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.115176] (hb_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.116629] (hb_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.117365] (hb_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.118503] (hb_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.118746] (hb_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.119313] (hb_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.119857] (hb_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.120120] (hb_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.121067] (hb_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.121472] (hb_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.122469] (hb_bot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.123063] (hb_bot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.124610] (hb_world) JobProgress: {'identifier': 'hb_world', 'progress': 'cmake'}
+[2.124688] (hb_world) Command: {'cmd': ['/usr/bin/cmake', '/home/yolo/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_world', '-DCMAKE_INSTALL_PREFIX=/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world'], 'cwd': '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'yolo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yolo'), ('OLDPWD', '/home/yolo/eyrc_hb/hb_task_2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yolo'), ('_', '/home/yolo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yolo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/yolo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yolo-HP-Laptop-15s-eq0xxx:@/tmp/.ICE-unix/1230,unix/yolo-HP-Laptop-15s-eq0xxx:/tmp/.ICE-unix/1230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a191e224_0690_4a94_92d6_c17c07b9ee8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63L2D2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble')]), 'shell': False}
+[2.126370] (hb_bot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.145790] (hb_bot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.187813] (hb_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.210669] (-) TimerEvent: {}
+[2.254544] (hb_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.295099] (hb_world) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.310818] (-) TimerEvent: {}
+[2.411445] (-) TimerEvent: {}
+[2.475481] (hb_bot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.480509] (hb_world) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.482791] (hb_bot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.502970] (hb_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.511594] (-) TimerEvent: {}
+[2.612436] (-) TimerEvent: {}
+[2.713026] (-) TimerEvent: {}
+[2.721121] (hb_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.741201] (hb_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.742772] (hb_world) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.744546] (hb_world) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.753242] (hb_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.813174] (-) TimerEvent: {}
+[2.819653] (hb_bot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.902947] (hb_bot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.913322] (-) TimerEvent: {}
+[3.012532] (hb_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.013395] (-) TimerEvent: {}
+[3.026051] (hb_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.027592] (hb_world) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.029892] (hb_world) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.037538] (hb_world) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.047569] (hb_bot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.077000] (hb_bot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.113574] (-) TimerEvent: {}
+[3.214277] (-) TimerEvent: {}
+[3.315021] (-) TimerEvent: {}
+[3.330803] (hb_bot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.332650] (hb_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.415228] (-) TimerEvent: {}
+[3.422181] (hb_task2b) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/hb_task2b', 'build', '--build-base', '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build', 'install', '--record', '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/install.log', '--single-version-externally-managed'], 'cwd': '/home/yolo/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_task2b', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'yolo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/yolo', 'OLDPWD': '/home/yolo/eyrc_hb/hb_task_2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1293', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yolo/eyrc_hb/hb_task1b_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yolo', '_': '/home/yolo/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yolo', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/../../share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/yolo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yolo-HP-Laptop-15s-eq0xxx:@/tmp/.ICE-unix/1230,unix/yolo-HP-Laptop-15s-eq0xxx:/tmp/.ICE-unix/1230', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a191e224_0690_4a94_92d6_c17c07b9ee8f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.63L2D2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.148', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11/../../share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/prefix_override:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages:/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces'}, 'shell': False}
+[3.462596] (hb_task2a) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/hb_task2a', 'build', '--build-base', '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/build', 'install', '--record', '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/install.log', '--single-version-externally-managed'], 'cwd': '/home/yolo/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_task2a', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'yolo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/yolo', 'OLDPWD': '/home/yolo/eyrc_hb/hb_task_2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1293', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yolo/eyrc_hb/hb_task1b_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yolo', '_': '/home/yolo/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yolo', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/../../share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/yolo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yolo-HP-Laptop-15s-eq0xxx:@/tmp/.ICE-unix/1230,unix/yolo-HP-Laptop-15s-eq0xxx:/tmp/.ICE-unix/1230', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a191e224_0690_4a94_92d6_c17c07b9ee8f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.63L2D2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.148', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11/../../share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/prefix_override:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages:/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces'}, 'shell': False}
+[3.515357] (-) TimerEvent: {}
+[3.580928] (hb_world) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.596379] (hb_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.600005] (hb_bot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.615517] (-) TimerEvent: {}
+[3.716371] (-) TimerEvent: {}
+[3.817135] (-) TimerEvent: {}
+[3.834012] (hb_world) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.917278] (-) TimerEvent: {}
+[3.949043] (hb_world) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.963062] (hb_world) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.987220] (hb_world) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.017435] (-) TimerEvent: {}
+[4.025986] (hb_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.082255] (hb_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.110704] (hb_bot) StdoutLine: {'line': b'-- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[4.117589] (-) TimerEvent: {}
+[4.121915] (hb_bot) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[4.217753] (-) TimerEvent: {}
+[4.232853] (hb_bot) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[4.238069] (hb_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.279570] (hb_world) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.288161] (hb_world) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.289418] (hb_task2b) StdoutLine: {'line': b'running egg_info\n'}
+[4.291173] (hb_task2b) StdoutLine: {'line': b'creating ../../../build/hb_task2b/hb_task2b.egg-info\n'}
+[4.291736] (hb_task2b) StdoutLine: {'line': b'writing ../../../build/hb_task2b/hb_task2b.egg-info/PKG-INFO\n'}
+[4.292482] (hb_task2b) StdoutLine: {'line': b'writing dependency_links to ../../../build/hb_task2b/hb_task2b.egg-info/dependency_links.txt\n'}
+[4.292873] (hb_task2b) StdoutLine: {'line': b'writing entry points to ../../../build/hb_task2b/hb_task2b.egg-info/entry_points.txt\n'}
+[4.293211] (hb_task2b) StdoutLine: {'line': b'writing requirements to ../../../build/hb_task2b/hb_task2b.egg-info/requires.txt\n'}
+[4.293532] (hb_task2b) StdoutLine: {'line': b'writing top-level names to ../../../build/hb_task2b/hb_task2b.egg-info/top_level.txt\n'}
+[4.294596] (hb_task2b) StdoutLine: {'line': b"writing manifest file '../../../build/hb_task2b/hb_task2b.egg-info/SOURCES.txt'\n"}
+[4.300501] (hb_task2b) StdoutLine: {'line': b"reading manifest file '../../../build/hb_task2b/hb_task2b.egg-info/SOURCES.txt'\n"}
+[4.303061] (hb_task2b) StdoutLine: {'line': b"writing manifest file '../../../build/hb_task2b/hb_task2b.egg-info/SOURCES.txt'\n"}
+[4.303533] (hb_task2b) StdoutLine: {'line': b'running build\n'}
+[4.303804] (hb_task2b) StdoutLine: {'line': b'running build_py\n'}
+[4.304381] (hb_task2b) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build\n'}
+[4.304732] (hb_task2b) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib\n'}
+[4.305036] (hb_task2b) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b\n'}
+[4.305391] (hb_task2b) StdoutLine: {'line': b'copying hb_task2b/bot_controller.py -> /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b\n'}
+[4.305913] (hb_task2b) StdoutLine: {'line': b'copying hb_task2b/nextGoalPub.py -> /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b\n'}
+[4.306352] (hb_task2b) StdoutLine: {'line': b'copying hb_task2b/__init__.py -> /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b\n'}
+[4.306970] (hb_task2b) StdoutLine: {'line': b'running install\n'}
+[4.308116] (hb_task2b) StdoutLine: {'line': b'running install_lib\n'}
+[4.309412] (hb_task2a) StdoutLine: {'line': b'running egg_info\n'}
+[4.310350] (hb_task2b) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b\n'}
+[4.310704] (hb_task2b) StdoutLine: {'line': b'copying /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b/bot_controller.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b\n'}
+[4.310949] (hb_task2b) StdoutLine: {'line': b'copying /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b/nextGoalPub.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b\n'}
+[4.311252] (hb_task2b) StdoutLine: {'line': b'copying /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b/__init__.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b\n'}
+[4.311518] (hb_task2a) StdoutLine: {'line': b'creating ../../../build/hb_task2a/hb_task2a.egg-info\n'}
+[4.312070] (hb_task2a) StdoutLine: {'line': b'writing ../../../build/hb_task2a/hb_task2a.egg-info/PKG-INFO\n'}
+[4.312991] (hb_task2a) StdoutLine: {'line': b'writing dependency_links to ../../../build/hb_task2a/hb_task2a.egg-info/dependency_links.txt\n'}
+[4.313404] (hb_task2b) StdoutLine: {'line': b'byte-compiling /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b/bot_controller.py to bot_controller.cpython-310.pyc\n'}
+[4.313696] (hb_task2a) StdoutLine: {'line': b'writing entry points to ../../../build/hb_task2a/hb_task2a.egg-info/entry_points.txt\n'}
+[4.314008] (hb_task2a) StdoutLine: {'line': b'writing requirements to ../../../build/hb_task2a/hb_task2a.egg-info/requires.txt\n'}
+[4.314287] (hb_task2a) StdoutLine: {'line': b'writing top-level names to ../../../build/hb_task2a/hb_task2a.egg-info/top_level.txt\n'}
+[4.314723] (hb_task2b) StdoutLine: {'line': b'byte-compiling /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b/nextGoalPub.py to nextGoalPub.cpython-310.pyc\n'}
+[4.315346] (hb_task2a) StdoutLine: {'line': b"writing manifest file '../../../build/hb_task2a/hb_task2a.egg-info/SOURCES.txt'\n"}
+[4.317917] (-) TimerEvent: {}
+[4.319054] (hb_task2b) StdoutLine: {'line': b'byte-compiling /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b/__init__.py to __init__.cpython-310.pyc\n'}
+[4.319532] (hb_task2b) StdoutLine: {'line': b'running install_data\n'}
+[4.321251] (hb_task2a) StdoutLine: {'line': b"reading manifest file '../../../build/hb_task2a/hb_task2a.egg-info/SOURCES.txt'\n"}
+[4.321681] (hb_task2b) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/ament_index\n'}
+[4.322016] (hb_task2b) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/ament_index/resource_index\n'}
+[4.322278] (hb_task2b) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/ament_index/resource_index/packages\n'}
+[4.322532] (hb_task2b) StdoutLine: {'line': b'copying resource/hb_task2b -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/ament_index/resource_index/packages\n'}
+[4.322780] (hb_task2b) StdoutLine: {'line': b'copying package.xml -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/hb_task2b\n'}
+[4.323031] (hb_task2b) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/hb_task2b/launch\n'}
+[4.323201] (hb_task2b) StdoutLine: {'line': b'copying launch/submission.launch.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/hb_task2b/launch\n'}
+[4.323439] (hb_task2b) StdoutLine: {'line': b'copying launch/task2b.launch.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/hb_task2b/launch\n'}
+[4.323690] (hb_task2b) StdoutLine: {'line': b'copying launch/controller.launch.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/hb_task2b/launch\n'}
+[4.323921] (hb_task2b) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/hb_task2b/scripts\n'}
+[4.324186] (hb_task2b) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.324577] (hb_task2a) StdoutLine: {'line': b"writing manifest file '../../../build/hb_task2a/hb_task2a.egg-info/SOURCES.txt'\n"}
+[4.324971] (hb_task2a) StdoutLine: {'line': b'running build\n'}
+[4.325247] (hb_task2a) StdoutLine: {'line': b'running build_py\n'}
+[4.325720] (hb_task2a) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/build\n'}
+[4.326024] (hb_task2a) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/build/lib\n'}
+[4.326307] (hb_task2a) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/build/lib/hb_task2a\n'}
+[4.326587] (hb_task2a) StdoutLine: {'line': b'copying hb_task2a/__init__.py -> /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/build/lib/hb_task2a\n'}
+[4.327205] (hb_task2a) StdoutLine: {'line': b'running install\n'}
+[4.328409] (hb_task2a) StdoutLine: {'line': b'running install_lib\n'}
+[4.330160] (hb_task2b) StdoutLine: {'line': b'Copying ../../../build/hb_task2b/hb_task2b.egg-info to /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b-0.0.0-py3.10.egg-info\n'}
+[4.330998] (hb_task2a) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a\n'}
+[4.331419] (hb_task2a) StdoutLine: {'line': b'copying /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/build/lib/hb_task2a/__init__.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a\n'}
+[4.332792] (hb_task2b) StdoutLine: {'line': b'running install_scripts\n'}
+[4.333436] (hb_task2a) StdoutLine: {'line': b'byte-compiling /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a/__init__.py to __init__.cpython-310.pyc\n'}
+[4.334306] (hb_task2a) StdoutLine: {'line': b'running install_data\n'}
+[4.336478] (hb_task2a) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/ament_index\n'}
+[4.336935] (hb_task2a) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/ament_index/resource_index\n'}
+[4.337212] (hb_task2a) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/ament_index/resource_index/packages\n'}
+[4.337461] (hb_task2a) StdoutLine: {'line': b'copying resource/hb_task2a -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/ament_index/resource_index/packages\n'}
+[4.337817] (hb_task2a) StdoutLine: {'line': b'copying package.xml -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a\n'}
+[4.338299] (hb_task2a) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/launch\n'}
+[4.338724] (hb_task2a) StdoutLine: {'line': b'copying launch/task2a.launch.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/launch\n'}
+[4.339181] (hb_task2a) StdoutLine: {'line': b'copying launch/submission.launch.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/launch\n'}
+[4.339628] (hb_task2a) StdoutLine: {'line': b'creating /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/scripts\n'}
+[4.339947] (hb_task2a) StdoutLine: {'line': b'copying scripts/feedback.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/scripts\n'}
+[4.340409] (hb_task2a) StdoutLine: {'line': b'copying scripts/service_node.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/scripts\n'}
+[4.340837] (hb_task2a) StdoutLine: {'line': b'copying scripts/controller.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/scripts\n'}
+[4.341162] (hb_task2a) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.346447] (hb_task2a) StdoutLine: {'line': b'Copying ../../../build/hb_task2a/hb_task2a.egg-info to /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a-0.0.0-py3.10.egg-info\n'}
+[4.349413] (hb_task2a) StdoutLine: {'line': b'running install_scripts\n'}
+[4.398801] (hb_task2b) StdoutLine: {'line': b'Installing controller script to /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/hb_task2b\n'}
+[4.399408] (hb_task2b) StdoutLine: {'line': b'Installing nextgoalpub script to /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/hb_task2b\n'}
+[4.400357] (hb_task2b) StdoutLine: {'line': b"writing list of installed files to '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/install.log'\n"}
+[4.418114] (-) TimerEvent: {}
+[4.423587] (hb_task2a) StdoutLine: {'line': b'Installing feedback script to /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/hb_task2a\n'}
+[4.424944] (hb_task2a) StdoutLine: {'line': b"writing list of installed files to '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/install.log'\n"}
+[4.477994] (hb_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.480471] (hb_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.483139] (hb_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.488747] (hb_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.493411] (hb_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.510039] (hb_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[4.515619] (hb_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot\n'}
+[4.518293] (-) TimerEvent: {}
+[4.560224] (hb_bot) CommandEnded: {'returncode': 0}
+[4.561609] (hb_bot) JobProgress: {'identifier': 'hb_bot', 'progress': 'build'}
+[4.561696] (hb_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot', '--', '-j4', '-l4'], 'cwd': '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'yolo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yolo'), ('OLDPWD', '/home/yolo/eyrc_hb/hb_task_2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yolo'), ('_', '/home/yolo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yolo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/yolo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yolo-HP-Laptop-15s-eq0xxx:@/tmp/.ICE-unix/1230,unix/yolo-HP-Laptop-15s-eq0xxx:/tmp/.ICE-unix/1230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a191e224_0690_4a94_92d6_c17c07b9ee8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63L2D2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble')]), 'shell': False}
+[4.576483] (hb_task2b) CommandEnded: {'returncode': 0}
+[4.618380] (-) TimerEvent: {}
+[4.680097] (hb_world) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.706898] (hb_task2b) JobEnded: {'identifier': 'hb_task2b', 'rc': 0}
+[4.708601] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[4.718523] (-) TimerEvent: {}
+[4.745878] (hb_world) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.818704] (-) TimerEvent: {}
+[4.846630] (hb_world) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.852092] (hb_task2a) CommandEnded: {'returncode': 0}
+[4.868043] (hb_world) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.918843] (-) TimerEvent: {}
+[4.967268] (hb_task2a) JobEnded: {'identifier': 'hb_task2a', 'rc': 0}
+[4.969868] (hb_bot) CommandEnded: {'returncode': 0}
+[4.973450] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[4.973893] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/yolo/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/my_robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces'], 'cwd': '/home/yolo/eyrc_hb/hb_task_2_ws/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'yolo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yolo'), ('OLDPWD', '/home/yolo/eyrc_hb/hb_task_2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yolo'), ('_', '/home/yolo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yolo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/yolo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yolo-HP-Laptop-15s-eq0xxx:@/tmp/.ICE-unix/1230,unix/yolo-HP-Laptop-15s-eq0xxx:/tmp/.ICE-unix/1230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a191e224_0690_4a94_92d6_c17c07b9ee8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63L2D2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yolo/eyrc_hb/hb_task_2_ws/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble')]), 'shell': False}
+[5.019000] (-) TimerEvent: {}
+[5.034462] (hb_bot) JobProgress: {'identifier': 'hb_bot', 'progress': 'install'}
+[5.065182] (hb_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot'], 'cwd': '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'yolo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yolo'), ('OLDPWD', '/home/yolo/eyrc_hb/hb_task_2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yolo'), ('_', '/home/yolo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yolo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/yolo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yolo-HP-Laptop-15s-eq0xxx:@/tmp/.ICE-unix/1230,unix/yolo-HP-Laptop-15s-eq0xxx:/tmp/.ICE-unix/1230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a191e224_0690_4a94_92d6_c17c07b9ee8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63L2D2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble')]), 'shell': False}
+[5.067444] (hb_world) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.067668] (hb_world) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.087488] (hb_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.087929] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//launch\n'}
+[5.088217] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//launch/Spawn_bot.launch.py\n'}
+[5.088511] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//launch/multi_bot_spawn.launch.py\n'}
+[5.088734] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes\n'}
+[5.088988] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_1.dae\n'}
+[5.098373] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_3.jpg\n'}
+[5.098895] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/wheel.stl\n'}
+[5.118705] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_1.jpg.001.jpg\n'}
+[5.119289] (-) TimerEvent: {}
+[5.119773] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_1.jpg\n'}
+[5.120067] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_2.dae\n'}
+[5.126509] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_2.jpg\n'}
+[5.127091] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_2.jpg.001.jpg\n'}
+[5.127293] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_3.jpg.001.jpg\n'}
+[5.127490] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_3.dae\n'}
+[5.136825] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf\n'}
+[5.137235] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf/materials.xacro\n'}
+[5.137380] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf/hb_bot_1.urdf.xacro\n'}
+[5.137516] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf/hb_bot_2.urdf.xacro\n'}
+[5.137814] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf/hb_bot_3.urdf.xacro\n'}
+[5.137985] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/ament_index/resource_index/package_run_dependencies/hb_bot\n'}
+[5.138231] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/ament_index/resource_index/parent_prefix_path/hb_bot\n'}
+[5.138738] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/environment/ament_prefix_path.sh\n'}
+[5.139148] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/environment/ament_prefix_path.dsv\n'}
+[5.139570] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/environment/path.sh\n'}
+[5.139949] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/environment/path.dsv\n'}
+[5.140365] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/local_setup.bash\n'}
+[5.140790] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/local_setup.sh\n'}
+[5.141062] (my_robot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.141352] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/local_setup.zsh\n'}
+[5.141590] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/local_setup.dsv\n'}
+[5.141987] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/package.dsv\n'}
+[5.142698] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/ament_index/resource_index/packages/hb_bot\n'}
+[5.143202] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/cmake/hb_botConfig.cmake\n'}
+[5.143533] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/cmake/hb_botConfig-version.cmake\n'}
+[5.143958] (hb_bot) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/package.xml\n'}
+[5.149686] (hb_bot) CommandEnded: {'returncode': 0}
+[5.219486] (-) TimerEvent: {}
+[5.269463] (hb_world) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.271638] (hb_world) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.312632] (my_robot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.319664] (-) TimerEvent: {}
+[5.328603] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.419838] (-) TimerEvent: {}
+[5.504247] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.518654] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.519208] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.519985] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.520378] (-) TimerEvent: {}
+[5.526195] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.566543] (hb_bot) JobEnded: {'identifier': 'hb_bot', 'rc': 0}
+[5.620579] (-) TimerEvent: {}
+[5.681795] (hb_world) StdoutLine: {'line': b'-- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[5.684843] (hb_world) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[5.716310] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.720635] (-) TimerEvent: {}
+[5.735548] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.736026] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.737205] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.743264] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.772501] (hb_world) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[5.775725] (hb_world) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.820832] (-) TimerEvent: {}
+[5.921431] (-) TimerEvent: {}
+[5.942481] (hb_world) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.944250] (hb_world) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.945701] (hb_world) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.950811] (hb_world) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.954039] (hb_world) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.969980] (hb_world) StdoutLine: {'line': b'-- Generating done\n'}
+[5.974762] (hb_world) StdoutLine: {'line': b'-- Build files have been written to: /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world\n'}
+[6.005352] (hb_world) CommandEnded: {'returncode': 0}
+[6.008601] (hb_world) JobProgress: {'identifier': 'hb_world', 'progress': 'build'}
+[6.008685] (hb_world) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world', '--', '-j4', '-l4'], 'cwd': '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'yolo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yolo'), ('OLDPWD', '/home/yolo/eyrc_hb/hb_task_2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yolo'), ('_', '/home/yolo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yolo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/yolo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yolo-HP-Laptop-15s-eq0xxx:@/tmp/.ICE-unix/1230,unix/yolo-HP-Laptop-15s-eq0xxx:/tmp/.ICE-unix/1230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a191e224_0690_4a94_92d6_c17c07b9ee8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63L2D2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble')]), 'shell': False}
+[6.021588] (-) TimerEvent: {}
+[6.111397] (my_robot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[6.113047] (hb_world) CommandEnded: {'returncode': 0}
+[6.121741] (-) TimerEvent: {}
+[6.171422] (hb_world) JobProgress: {'identifier': 'hb_world', 'progress': 'install'}
+[6.172382] (hb_world) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world'], 'cwd': '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'yolo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yolo'), ('OLDPWD', '/home/yolo/eyrc_hb/hb_task_2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yolo'), ('_', '/home/yolo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yolo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/yolo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yolo-HP-Laptop-15s-eq0xxx:@/tmp/.ICE-unix/1230,unix/yolo-HP-Laptop-15s-eq0xxx:/tmp/.ICE-unix/1230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a191e224_0690_4a94_92d6_c17c07b9ee8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63L2D2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble')]), 'shell': False}
+[6.192592] (hb_world) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.193067] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//launch\n'}
+[6.193267] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//launch/world.launch.py\n'}
+[6.193501] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//worlds\n'}
+[6.193708] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//worlds/gazebo.world\n'}
+[6.193932] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models\n'}
+[6.194148] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera\n'}
+[6.194345] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/model.config\n'}
+[6.194550] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/model.sdf\n'}
+[6.194768] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes\n'}
+[6.194981] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes/camera.dae\n'}
+[6.195894] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes/17eyantra_logo_large e.png\n'}
+[6.196349] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface\n'}
+[6.196598] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/model.config\n'}
+[6.196831] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/model.sdf\n'}
+[6.197061] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes\n'}
+[6.197291] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes/geoglyph.jpg\n'}
+[6.197951] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes/ground_surface.dae\n'}
+[6.198213] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena\n'}
+[6.198437] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/model.config\n'}
+[6.198658] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/model.sdf\n'}
+[6.198915] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes\n'}
+[6.199116] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes/arena.dae\n'}
+[6.199384] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes/arena.jpg\n'}
+[6.200148] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/package_run_dependencies/hb_world\n'}
+[6.201436] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/parent_prefix_path/hb_world\n'}
+[6.201821] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/ament_prefix_path.sh\n'}
+[6.202124] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/ament_prefix_path.dsv\n'}
+[6.202434] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/path.sh\n'}
+[6.202747] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/path.dsv\n'}
+[6.203052] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.bash\n'}
+[6.203359] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.sh\n'}
+[6.203692] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.zsh\n'}
+[6.203997] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.dsv\n'}
+[6.204326] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/package.dsv\n'}
+[6.204763] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/packages/hb_world\n'}
+[6.205128] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/cmake/hb_worldConfig.cmake\n'}
+[6.205385] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/cmake/hb_worldConfig-version.cmake\n'}
+[6.205699] (hb_world) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/package.xml\n'}
+[6.210483] (hb_world) CommandEnded: {'returncode': 0}
+[6.221950] (-) TimerEvent: {}
+[6.306635] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.313233] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.322071] (-) TimerEvent: {}
+[6.326868] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.412056] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.422221] (-) TimerEvent: {}
+[6.509124] (hb_world) JobEnded: {'identifier': 'hb_world', 'rc': 0}
+[6.522373] (-) TimerEvent: {}
+[6.622915] (-) TimerEvent: {}
+[6.723765] (-) TimerEvent: {}
+[6.824310] (-) TimerEvent: {}
+[6.924892] (-) TimerEvent: {}
+[7.025704] (-) TimerEvent: {}
+[7.033499] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.125876] (-) TimerEvent: {}
+[7.226397] (-) TimerEvent: {}
+[7.326946] (-) TimerEvent: {}
+[7.427472] (-) TimerEvent: {}
+[7.456939] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.527682] (-) TimerEvent: {}
+[7.628245] (-) TimerEvent: {}
+[7.728848] (-) TimerEvent: {}
+[7.829603] (-) TimerEvent: {}
+[7.930418] (-) TimerEvent: {}
+[7.970935] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.026415] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[8.029814] (my_robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.030454] (-) TimerEvent: {}
+[8.086164] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[8.086587] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.086736] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.086885] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.130663] (-) TimerEvent: {}
+[8.131480] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.217244] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.230842] (-) TimerEvent: {}
+[8.288190] (my_robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[8.294659] (my_robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/yolo/eyrc_hb/hb_task_2_ws/build/my_robot_interfaces\n'}
+[8.318014] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[8.319095] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[8.319505] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yolo/eyrc_hb/hb_task_2_ws/build/my_robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/yolo/eyrc_hb/hb_task_2_ws/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'yolo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yolo'), ('OLDPWD', '/home/yolo/eyrc_hb/hb_task_2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yolo'), ('_', '/home/yolo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yolo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/yolo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yolo-HP-Laptop-15s-eq0xxx:@/tmp/.ICE-unix/1230,unix/yolo-HP-Laptop-15s-eq0xxx:/tmp/.ICE-unix/1230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a191e224_0690_4a94_92d6_c17c07b9ee8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63L2D2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yolo/eyrc_hb/hb_task_2_ws/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble')]), 'shell': False}
+[8.330984] (-) TimerEvent: {}
+[8.431739] (-) TimerEvent: {}
+[8.434134] (my_robot_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.474661] (my_robot_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.506621] (my_robot_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_my_robot_interfaces\n'}
+[8.531851] (-) TimerEvent: {}
+[8.632491] (-) TimerEvent: {}
+[8.733012] (-) TimerEvent: {}
+[8.835681] (-) TimerEvent: {}
+[8.936733] (-) TimerEvent: {}
+[9.037481] (-) TimerEvent: {}
+[9.139050] (-) TimerEvent: {}
+[9.242421] (-) TimerEvent: {}
+[9.265302] (my_robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[9.265738] (my_robot_interfaces) StdoutLine: {'line': b'creating my_robot_interfaces.egg-info\n'}
+[9.265918] (my_robot_interfaces) StdoutLine: {'line': b'writing my_robot_interfaces.egg-info/PKG-INFO\n'}
+[9.266087] (my_robot_interfaces) StdoutLine: {'line': b'writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt\n'}
+[9.266255] (my_robot_interfaces) StdoutLine: {'line': b'writing top-level names to my_robot_interfaces.egg-info/top_level.txt\n'}
+[9.266423] (my_robot_interfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[9.273627] (my_robot_interfaces) StdoutLine: {'line': b"reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[9.275750] (my_robot_interfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[9.342564] (-) TimerEvent: {}
+[9.416656] (my_robot_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_my_robot_interfaces_egg\n'}
+[9.444393] (-) TimerEvent: {}
+[9.545008] (-) TimerEvent: {}
+[9.645883] (-) TimerEvent: {}
+[9.747516] (-) TimerEvent: {}
+[9.851264] (my_robot_interfaces) StdoutLine: {'line': b'[  4%] Built target my_robot_interfaces__cpp\n'}
+[9.851730] (-) TimerEvent: {}
+[9.869864] (my_robot_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/goal__functions.c.o\x1b[0m\n'}
+[9.880611] (my_robot_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/next_goal__functions.c.o\x1b[0m\n'}
+[9.891876] (my_robot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/shape__functions.c.o\x1b[0m\n'}
+[9.905290] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.951903] (-) TimerEvent: {}
+[10.052745] (-) TimerEvent: {}
+[10.064187] (my_robot_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.111587] (my_robot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[10.150731] (my_robot_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[10.152854] (-) TimerEvent: {}
+[10.253805] (-) TimerEvent: {}
+[10.307566] (my_robot_interfaces) StdoutLine: {'line': b'[ 19%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[10.354078] (-) TimerEvent: {}
+[10.373416] (my_robot_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.460429] (-) TimerEvent: {}
+[10.573222] (-) TimerEvent: {}
+[10.674861] (-) TimerEvent: {}
+[10.775566] (-) TimerEvent: {}
+[10.876155] (-) TimerEvent: {}
+[10.979048] (-) TimerEvent: {}
+[11.079667] (-) TimerEvent: {}
+[11.180289] (-) TimerEvent: {}
+[11.281095] (-) TimerEvent: {}
+[11.381882] (-) TimerEvent: {}
+[11.482539] (-) TimerEvent: {}
+[11.586157] (-) TimerEvent: {}
+[11.686851] (-) TimerEvent: {}
+[11.788585] (-) TimerEvent: {}
+[11.811722] (my_robot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/next_goal__type_support.cpp.o\x1b[0m\n'}
+[11.873329] (my_robot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/next_goal__type_support.cpp.o\x1b[0m\n'}
+[11.888732] (-) TimerEvent: {}
+[11.904633] (my_robot_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/next_goal__type_support.cpp.o\x1b[0m\n'}
+[11.989158] (-) TimerEvent: {}
+[12.089995] (-) TimerEvent: {}
+[12.178403] (my_robot_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/next_goal__type_support_c.cpp.o\x1b[0m\n'}
+[12.190185] (-) TimerEvent: {}
+[12.291061] (-) TimerEvent: {}
+[12.391794] (-) TimerEvent: {}
+[12.492534] (-) TimerEvent: {}
+[12.594831] (-) TimerEvent: {}
+[12.696752] (-) TimerEvent: {}
+[12.797509] (-) TimerEvent: {}
+[12.834898] (my_robot_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/goal__type_support.cpp.o\x1b[0m\n'}
+[12.897663] (-) TimerEvent: {}
+[12.998552] (-) TimerEvent: {}
+[13.101764] (-) TimerEvent: {}
+[13.177674] (my_robot_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/goal__type_support.cpp.o\x1b[0m\n'}
+[13.204458] (-) TimerEvent: {}
+[13.305159] (-) TimerEvent: {}
+[13.406416] (-) TimerEvent: {}
+[13.507067] (-) TimerEvent: {}
+[13.612462] (-) TimerEvent: {}
+[13.716424] (-) TimerEvent: {}
+[13.741324] (my_robot_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/goal__type_support_c.cpp.o\x1b[0m\n'}
+[13.822425] (-) TimerEvent: {}
+[13.924491] (-) TimerEvent: {}
+[13.987145] (my_robot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/shape__type_support.cpp.o\x1b[0m\n'}
+[14.005254] (my_robot_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/goal__type_support.cpp.o\x1b[0m\n'}
+[14.028098] (-) TimerEvent: {}
+[14.129497] (-) TimerEvent: {}
+[14.230256] (-) TimerEvent: {}
+[14.340466] (-) TimerEvent: {}
+[14.441166] (-) TimerEvent: {}
+[14.542834] (-) TimerEvent: {}
+[14.647942] (-) TimerEvent: {}
+[14.748639] (-) TimerEvent: {}
+[14.849353] (-) TimerEvent: {}
+[14.954775] (-) TimerEvent: {}
+[15.055712] (-) TimerEvent: {}
+[15.157612] (-) TimerEvent: {}
+[15.262674] (-) TimerEvent: {}
+[15.300247] (my_robot_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[15.362999] (-) TimerEvent: {}
+[15.468691] (-) TimerEvent: {}
+[15.491285] (my_robot_interfaces) StdoutLine: {'line': b'[ 42%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[15.529142] (my_robot_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[15.551143] (my_robot_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/shape__type_support_c.cpp.o\x1b[0m\n'}
+[15.574862] (-) TimerEvent: {}
+[15.676431] (my_robot_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/shape__type_support.cpp.o\x1b[0m\n'}
+[15.676905] (-) TimerEvent: {}
+[15.778528] (-) TimerEvent: {}
+[15.882853] (-) TimerEvent: {}
+[15.983578] (-) TimerEvent: {}
+[16.085780] (-) TimerEvent: {}
+[16.186824] (-) TimerEvent: {}
+[16.287617] (-) TimerEvent: {}
+[16.388510] (-) TimerEvent: {}
+[16.470745] (my_robot_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/shape__type_support.cpp.o\x1b[0m\n'}
+[16.488761] (-) TimerEvent: {}
+[16.589741] (-) TimerEvent: {}
+[16.698702] (-) TimerEvent: {}
+[16.800046] (-) TimerEvent: {}
+[16.901132] (-) TimerEvent: {}
+[17.001996] (-) TimerEvent: {}
+[17.066712] (my_robot_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.080573] (my_robot_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[17.103438] (-) TimerEvent: {}
+[17.204047] (-) TimerEvent: {}
+[17.297649] (my_robot_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/next_goal__type_support.c.o\x1b[0m\n'}
+[17.307295] (-) TimerEvent: {}
+[17.408216] (-) TimerEvent: {}
+[17.470513] (my_robot_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/goal__type_support.c.o\x1b[0m\n'}
+[17.516332] (-) TimerEvent: {}
+[17.522515] (my_robot_interfaces) StdoutLine: {'line': b'[ 59%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[17.563897] (my_robot_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.607016] (my_robot_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[17.610777] (my_robot_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/shape__type_support.c.o\x1b[0m\n'}
+[17.616545] (-) TimerEvent: {}
+[17.709130] (my_robot_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[17.716664] (-) TimerEvent: {}
+[17.818887] (-) TimerEvent: {}
+[17.838622] (my_robot_interfaces) StdoutLine: {'line': b'[ 65%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[17.919034] (-) TimerEvent: {}
+[17.939971] (my_robot_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[18.019187] (-) TimerEvent: {}
+[18.119778] (-) TimerEvent: {}
+[18.172872] (my_robot_interfaces) StdoutLine: {'line': b'[ 68%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[18.173779] (my_robot_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/shape__type_support.cpp.o\x1b[0m\n'}
+[18.174053] (my_robot_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/next_goal__type_support.cpp.o\x1b[0m\n'}
+[18.179479] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/goal__type_support.cpp.o\x1b[0m\n'}
+[18.219968] (-) TimerEvent: {}
+[18.239374] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.320108] (-) TimerEvent: {}
+[18.326957] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[18.370377] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_robot_interfaces\n'}
+[18.414358] (my_robot_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[18.420606] (-) TimerEvent: {}
+[18.521304] (-) TimerEvent: {}
+[18.621752] (-) TimerEvent: {}
+[18.722227] (-) TimerEvent: {}
+[18.822751] (-) TimerEvent: {}
+[18.923237] (-) TimerEvent: {}
+[19.023808] (-) TimerEvent: {}
+[19.124387] (-) TimerEvent: {}
+[19.178714] (my_robot_interfaces) StdoutLine: {'line': b'[ 78%] Built target my_robot_interfaces__py\n'}
+[19.224570] (-) TimerEvent: {}
+[19.227450] (my_robot_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_next_goal_s.c.o\x1b[0m\n'}
+[19.235161] (my_robot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_shape_s.c.o\x1b[0m\n'}
+[19.235905] (my_robot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_goal_s.c.o\x1b[0m\n'}
+[19.324740] (-) TimerEvent: {}
+[19.425935] (-) TimerEvent: {}
+[19.496947] (my_robot_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[19.526205] (-) TimerEvent: {}
+[19.583088] (my_robot_interfaces) StdoutLine: {'line': b'[ 87%] Built target my_robot_interfaces__rosidl_generator_py\n'}
+[19.626305] (-) TimerEvent: {}
+[19.639841] (my_robot_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[19.640916] (my_robot_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[19.647898] (my_robot_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[19.726492] (-) TimerEvent: {}
+[19.827200] (-) TimerEvent: {}
+[19.860810] (my_robot_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.871828] (my_robot_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.879862] (my_robot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.927407] (-) TimerEvent: {}
+[19.941028] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[19.966850] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[19.969151] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[19.996933] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[20.027556] (-) TimerEvent: {}
+[20.128197] (-) TimerEvent: {}
+[20.205493] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[20.205994] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yolo/eyrc_hb/hb_task_2_ws/build/my_robot_interfaces'], 'cwd': '/home/yolo/eyrc_hb/hb_task_2_ws/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'yolo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yolo'), ('OLDPWD', '/home/yolo/eyrc_hb/hb_task_2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yolo'), ('_', '/home/yolo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yolo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/yolo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yolo-HP-Laptop-15s-eq0xxx:@/tmp/.ICE-unix/1230,unix/yolo-HP-Laptop-15s-eq0xxx:/tmp/.ICE-unix/1230'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a191e224_0690_4a94_92d6_c17c07b9ee8f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63L2D2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yolo/eyrc_hb/hb_task_2_ws/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yolo/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble')]), 'shell': False}
+[20.223602] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.224004] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[20.224172] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[20.224463] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[20.224628] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/next_goal.h\n'}
+[20.224836] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[20.224978] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__functions.h\n'}
+[20.225241] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__type_support.h\n'}
+[20.225456] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__functions.c\n'}
+[20.225728] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__struct.h\n'}
+[20.225946] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[20.226139] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[20.226298] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__functions.c\n'}
+[20.226565] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__functions.h\n'}
+[20.226852] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__type_support.h\n'}
+[20.227081] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__struct.h\n'}
+[20.227298] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__functions.c\n'}
+[20.227510] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__type_support.h\n'}
+[20.227729] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__functions.h\n'}
+[20.227956] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__struct.h\n'}
+[20.228317] (-) TimerEvent: {}
+[20.228649] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/goal.h\n'}
+[20.228846] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.229016] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/shape.h\n'}
+[20.229173] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[20.229297] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[20.229474] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[20.230092] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""\n'}
+[20.230288] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[20.230475] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[20.230656] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[20.230894] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_fastrtps_c.h\n'}
+[20.231055] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[20.231218] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.231486] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[20.231612] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__rosidl_typesupport_fastrtps_c.h\n'}
+[20.231727] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__rosidl_typesupport_fastrtps_c.h\n'}
+[20.231844] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[20.232028] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[20.232231] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[20.232421] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[20.232562] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[20.232719] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_introspection_c.h\n'}
+[20.232897] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__type_support.c\n'}
+[20.233086] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[20.233206] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.233421] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[20.233569] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__rosidl_typesupport_introspection_c.h\n'}
+[20.233759] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__type_support.c\n'}
+[20.233878] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__type_support.c\n'}
+[20.234056] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__rosidl_typesupport_introspection_c.h\n'}
+[20.234177] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[20.234450] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.234626] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[20.235027] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[20.235214] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[20.235381] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[20.235514] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[20.235674] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__builder.hpp\n'}
+[20.235836] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__traits.hpp\n'}
+[20.235981] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__struct.hpp\n'}
+[20.236169] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/next_goal.hpp\n'}
+[20.236343] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[20.236509] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/goal.hpp\n'}
+[20.236643] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[20.236795] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__struct.hpp\n'}
+[20.236949] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__traits.hpp\n'}
+[20.237108] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__struct.hpp\n'}
+[20.237265] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__builder.hpp\n'}
+[20.237384] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__builder.hpp\n'}
+[20.237540] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__traits.hpp\n'}
+[20.237696] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/shape.hpp\n'}
+[20.237851] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[20.238057] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[20.238181] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[20.238305] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps\n'}
+[20.238461] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.238646] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[20.239277] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.239486] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[20.239656] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.239849] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps\n'}
+[20.240007] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.240128] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.241658] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[20.242273] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[20.243282] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[20.243472] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[20.244644] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__type_support.cpp\n'}
+[20.244796] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.245037] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[20.245256] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[20.245384] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.245497] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__type_support.cpp\n'}
+[20.245608] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__type_support.cpp\n'}
+[20.245717] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.245829] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[20.245941] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[20.246141] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[20.246321] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[20.246735] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[20.246914] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[20.250273] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info\n'}
+[20.251007] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[20.251325] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[20.251522] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[20.252838] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[20.253041] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces\n'}
+[20.253161] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.253346] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.253471] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv\n'}
+[20.253637] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_next_goal.py\n'}
+[20.253747] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_next_goal_s.c\n'}
+[20.253944] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py\n'}
+[20.254075] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.254215] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.254342] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg\n'}
+[20.254450] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_goal_s.c\n'}
+[20.254554] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_shape.py\n'}
+[20.254762] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_goal.py\n'}
+[20.254873] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py\n'}
+[20.255045] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_shape_s.c\n'}
+[20.255159] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[20.255388] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py\n'}
+[20.255603] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.255970] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[20.328403] (-) TimerEvent: {}
+[20.354917] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...\n"}
+[20.355418] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py'...\n"}
+[20.355632] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg'...\n"}
+[20.355819] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py'...\n"}
+[20.356001] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_goal.py'...\n"}
+[20.356186] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_shape.py'...\n"}
+[20.356416] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv'...\n"}
+[20.356558] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py'...\n"}
+[20.356692] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_next_goal.py'...\n"}
+[20.370685] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.371259] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[20.371720] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.372444] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[20.373654] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.374148] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[20.374362] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[20.375170] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""\n'}
+[20.375543] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal.idl\n'}
+[20.376001] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Goal.idl\n'}
+[20.376424] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Shape.idl\n'}
+[20.377054] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal.srv\n'}
+[20.377420] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal_Request.msg\n'}
+[20.377784] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal_Response.msg\n'}
+[20.378413] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Goal.msg\n'}
+[20.378928] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Shape.msg\n'}
+[20.379387] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[20.379861] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[20.380444] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[20.380797] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[20.381100] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[20.381434] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[20.381735] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[20.382032] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[20.382309] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[20.382621] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[20.382945] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[20.383286] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[20.383682] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[20.383971] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.384336] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[20.384835] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[20.385188] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.385550] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.385942] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[20.386305] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.387228] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[20.387708] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[20.388051] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[20.388300] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.388640] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.388960] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[20.389270] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.389558] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[20.389814] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[20.390168] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[20.390538] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.390941] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.391273] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.391726] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.392054] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.392434] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.393974] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[20.394416] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[20.394640] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[20.400241] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[20.428549] (-) TimerEvent: {}
+[20.550995] (-) TimerEvent: {}
+[20.651666] (-) TimerEvent: {}
+[20.752150] (-) TimerEvent: {}
+[20.852657] (-) TimerEvent: {}
+[20.953342] (-) TimerEvent: {}
+[20.983613] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[20.985024] (-) EventReactorShutdown: {}

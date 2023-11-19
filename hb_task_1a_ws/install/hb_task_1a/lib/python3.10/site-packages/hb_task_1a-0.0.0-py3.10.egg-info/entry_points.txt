@@ -1,0 +1,4 @@
+[console_scripts]
+draw_circle = hb_task_1a.task_1a_2836:main
+sub = hb_task_1a.sub_new:main
+

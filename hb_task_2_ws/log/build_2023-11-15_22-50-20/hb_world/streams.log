@@ -1,0 +1,43 @@
+[1.687s] Invoking command in '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble /usr/bin/cmake --build /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world -- -j4 -l4
+[1.848s] Invoked command in '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble /usr/bin/cmake --build /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world -- -j4 -l4
+[2.074s] Invoking command in '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble /usr/bin/cmake --install /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world
+[2.100s] -- Install configuration: ""
+[2.100s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//launch
+[2.102s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//launch/world.launch.py
+[2.102s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//worlds
+[2.102s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//worlds/gazebo.world
+[2.103s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models
+[2.103s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera
+[2.104s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/model.config
+[2.104s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/model.sdf
+[2.105s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes
+[2.106s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes/camera.dae
+[2.106s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes/17eyantra_logo_large e.png
+[2.107s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface
+[2.108s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/model.config
+[2.108s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/model.sdf
+[2.109s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes
+[2.109s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes/geoglyph.jpg
+[2.110s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes/ground_surface.dae
+[2.110s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena
+[2.111s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/model.config
+[2.111s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/model.sdf
+[2.112s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes
+[2.113s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes/arena.dae
+[2.113s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes/arena.jpg
+[2.113s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/package_run_dependencies/hb_world
+[2.114s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/parent_prefix_path/hb_world
+[2.115s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/ament_prefix_path.sh
+[2.115s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/ament_prefix_path.dsv
+[2.116s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/path.sh
+[2.116s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/path.dsv
+[2.117s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.bash
+[2.118s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.sh
+[2.118s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.zsh
+[2.118s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.dsv
+[2.119s] -- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/package.dsv
+[2.120s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/packages/hb_world
+[2.121s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/cmake/hb_worldConfig.cmake
+[2.122s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/cmake/hb_worldConfig-version.cmake
+[2.122s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/package.xml
+[2.132s] Invoked command in '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble /usr/bin/cmake --install /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_world

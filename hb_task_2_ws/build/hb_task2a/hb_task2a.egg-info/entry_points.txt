@@ -1,0 +1,5 @@
+[console_scripts]
+controller = hb_task_2a.controller:main
+feedback = hb_task2a.feedback:main
+service = hb_task_2a.service_node:main
+

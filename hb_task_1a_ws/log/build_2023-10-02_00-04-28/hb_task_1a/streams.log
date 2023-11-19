@@ -1,0 +1,24 @@
+[1.504s] Invoking command in '/home/yolo/eyrc_hb/hb_task_1a_ws/src/hb_task_1a': PYTHONPATH=/home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a/prefix_override:/home/yolo/eyrc_hb/hb_task_1a_ws/install/hb_task_1a/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hb_task_1a build --build-base /home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a/build install --record /home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a/install.log --single-version-externally-managed
+[1.932s] running egg_info
+[1.934s] writing ../../build/hb_task_1a/hb_task_1a.egg-info/PKG-INFO
+[1.934s] writing dependency_links to ../../build/hb_task_1a/hb_task_1a.egg-info/dependency_links.txt
+[1.935s] writing entry points to ../../build/hb_task_1a/hb_task_1a.egg-info/entry_points.txt
+[1.935s] writing requirements to ../../build/hb_task_1a/hb_task_1a.egg-info/requires.txt
+[1.935s] writing top-level names to ../../build/hb_task_1a/hb_task_1a.egg-info/top_level.txt
+[1.940s] reading manifest file '../../build/hb_task_1a/hb_task_1a.egg-info/SOURCES.txt'
+[1.941s] writing manifest file '../../build/hb_task_1a/hb_task_1a.egg-info/SOURCES.txt'
+[1.942s] running build
+[1.942s] running build_py
+[1.942s] copying hb_task_1a/task_1a_2836.py -> /home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a/build/lib/hb_task_1a
+[1.942s] running install
+[1.943s] running install_lib
+[1.944s] copying /home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a/build/lib/hb_task_1a/task_1a_2836.py -> /home/yolo/eyrc_hb/hb_task_1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb_task_1a
+[1.945s] byte-compiling /home/yolo/eyrc_hb/hb_task_1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb_task_1a/task_1a_2836.py to task_1a_2836.cpython-310.pyc
+[1.947s] running install_data
+[1.948s] running install_egg_info
+[1.951s] removing '/home/yolo/eyrc_hb/hb_task_1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb_task_1a-0.0.0-py3.10.egg-info' (and everything under it)
+[1.952s] Copying ../../build/hb_task_1a/hb_task_1a.egg-info to /home/yolo/eyrc_hb/hb_task_1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb_task_1a-0.0.0-py3.10.egg-info
+[1.954s] running install_scripts
+[1.987s] Installing draw_circle script to /home/yolo/eyrc_hb/hb_task_1a_ws/install/hb_task_1a/lib/hb_task_1a
+[1.987s] writing list of installed files to '/home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a/install.log'
+[2.064s] Invoked command in '/home/yolo/eyrc_hb/hb_task_1a_ws/src/hb_task_1a' returned '0': PYTHONPATH=/home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a/prefix_override:/home/yolo/eyrc_hb/hb_task_1a_ws/install/hb_task_1a/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hb_task_1a build --build-base /home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a/build install --record /home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a/install.log --single-version-externally-managed

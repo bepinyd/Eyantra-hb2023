@@ -1,0 +1,21 @@
+[2.227s] Invoking command in '/home/yolo/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_task2a': PYTHONPATH=/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/prefix_override:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hb_task2a build --build-base /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/build install --record /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/install.log --single-version-externally-managed
+[2.808s] running egg_info
+[2.809s] writing ../../../build/hb_task2a/hb_task2a.egg-info/PKG-INFO
+[2.810s] writing dependency_links to ../../../build/hb_task2a/hb_task2a.egg-info/dependency_links.txt
+[2.810s] writing entry points to ../../../build/hb_task2a/hb_task2a.egg-info/entry_points.txt
+[2.811s] writing requirements to ../../../build/hb_task2a/hb_task2a.egg-info/requires.txt
+[2.811s] writing top-level names to ../../../build/hb_task2a/hb_task2a.egg-info/top_level.txt
+[2.815s] reading manifest file '../../../build/hb_task2a/hb_task2a.egg-info/SOURCES.txt'
+[2.817s] writing manifest file '../../../build/hb_task2a/hb_task2a.egg-info/SOURCES.txt'
+[2.817s] running build
+[2.818s] running build_py
+[2.818s] running install
+[2.821s] running install_lib
+[2.823s] running install_data
+[2.825s] running install_egg_info
+[2.829s] removing '/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a-0.0.0-py3.10.egg-info' (and everything under it)
+[2.831s] Copying ../../../build/hb_task2a/hb_task2a.egg-info to /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a-0.0.0-py3.10.egg-info
+[2.831s] running install_scripts
+[2.879s] Installing feedback script to /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/hb_task2a
+[2.879s] writing list of installed files to '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/install.log'
+[3.043s] Invoked command in '/home/yolo/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_task2a' returned '0': PYTHONPATH=/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/prefix_override:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hb_task2a build --build-base /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/build install --record /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2a/install.log --single-version-externally-managed

@@ -1,0 +1,18 @@
+[1.090s] Invoking command in '/home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a': PYTHONPATH=/home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a/prefix_override:/home/yolo/eyrc_hb/hb_task_1a_ws/install/hb_task_1a/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a/build --no-deps install_data
+[1.421s] running develop
+[1.635s] running egg_info
+[1.636s] writing hb_task_1a.egg-info/PKG-INFO
+[1.636s] writing dependency_links to hb_task_1a.egg-info/dependency_links.txt
+[1.636s] writing entry points to hb_task_1a.egg-info/entry_points.txt
+[1.636s] writing requirements to hb_task_1a.egg-info/requires.txt
+[1.636s] writing top-level names to hb_task_1a.egg-info/top_level.txt
+[1.638s] reading manifest file 'hb_task_1a.egg-info/SOURCES.txt'
+[1.642s] writing manifest file 'hb_task_1a.egg-info/SOURCES.txt'
+[1.643s] running build_ext
+[1.643s] Creating /home/yolo/eyrc_hb/hb_task_1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb-task-1a.egg-link (link to .)
+[1.644s] Installing draw_circle script to /home/yolo/eyrc_hb/hb_task_1a_ws/install/hb_task_1a/lib/hb_task_1a
+[1.645s] Installing sub script to /home/yolo/eyrc_hb/hb_task_1a_ws/install/hb_task_1a/lib/hb_task_1a
+[1.645s] 
+[1.645s] Installed /home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a
+[1.645s] running install_data
+[1.696s] Invoked command in '/home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a' returned '0': PYTHONPATH=/home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a/prefix_override:/home/yolo/eyrc_hb/hb_task_1a_ws/install/hb_task_1a/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yolo/eyrc_hb/hb_task_1a_ws/build/hb_task_1a/build --no-deps install_data

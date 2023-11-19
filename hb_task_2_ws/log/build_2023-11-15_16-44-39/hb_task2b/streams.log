@@ -1,0 +1,34 @@
+[5.094s] Invoking command in '/home/yolo/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_task2b': PYTHONPATH=/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/prefix_override:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hb_task2b build --build-base /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build install --record /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/install.log --single-version-externally-managed
+[6.529s] running egg_info
+[6.532s] writing ../../../build/hb_task2b/hb_task2b.egg-info/PKG-INFO
+[6.533s] writing dependency_links to ../../../build/hb_task2b/hb_task2b.egg-info/dependency_links.txt
+[6.539s] writing entry points to ../../../build/hb_task2b/hb_task2b.egg-info/entry_points.txt
+[6.544s] writing requirements to ../../../build/hb_task2b/hb_task2b.egg-info/requires.txt
+[6.548s] writing top-level names to ../../../build/hb_task2b/hb_task2b.egg-info/top_level.txt
+[6.557s] reading manifest file '../../../build/hb_task2b/hb_task2b.egg-info/SOURCES.txt'
+[6.565s] writing manifest file '../../../build/hb_task2b/hb_task2b.egg-info/SOURCES.txt'
+[6.569s] running build
+[6.569s] running build_py
+[6.578s] copying hb_task2b/bot_controller.py -> /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b
+[6.580s] copying hb_task2b/bot_controller2.py -> /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b
+[6.582s] copying hb_task2b/bot_controller3.py -> /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b
+[6.584s] running install
+[6.586s] running install_lib
+[6.589s] copying /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b/bot_controller.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b
+[6.591s] copying /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b/bot_controller2.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b
+[6.593s] copying /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b/bot_controller3.py -> /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b
+[6.596s] byte-compiling /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b/bot_controller.py to bot_controller.cpython-310.pyc
+[6.603s] byte-compiling /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b/bot_controller2.py to bot_controller2.cpython-310.pyc
+[6.606s] byte-compiling /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b/bot_controller3.py to bot_controller3.cpython-310.pyc
+[6.611s] running install_data
+[6.613s] running install_egg_info
+[6.621s] removing '/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b-0.0.0-py3.10.egg-info' (and everything under it)
+[6.623s] Copying ../../../build/hb_task2b/hb_task2b.egg-info to /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b-0.0.0-py3.10.egg-info
+[6.636s] running install_scripts
+[6.731s] Installing controller script to /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/hb_task2b
+[6.732s] Installing controller2 script to /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/hb_task2b
+[6.732s] Installing controller3 script to /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/hb_task2b
+[6.732s] Installing feedback script to /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/hb_task2b
+[6.732s] Installing nextgoalpub script to /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/hb_task2b
+[6.733s] writing list of installed files to '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/install.log'
+[7.144s] Invoked command in '/home/yolo/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_task2b' returned '0': PYTHONPATH=/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/prefix_override:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hb_task2b build --build-base /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/build install --record /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_task2b/install.log --single-version-externally-managed

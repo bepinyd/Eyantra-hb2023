@@ -1,0 +1,25 @@
+[1.640s] Invoking command in '/home/yolo/eyrc_hb/hb_task1b_ws/src/hb_task_1b': PYTHONPATH=/home/yolo/eyrc_hb/hb_task1b_ws/build/hb_task_1b/prefix_override:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hb_task_1b build --build-base /home/yolo/eyrc_hb/hb_task1b_ws/build/hb_task_1b/build install --record /home/yolo/eyrc_hb/hb_task1b_ws/build/hb_task_1b/install.log --single-version-externally-managed
+[2.057s] running egg_info
+[2.058s] writing ../../build/hb_task_1b/hb_task_1b.egg-info/PKG-INFO
+[2.059s] writing dependency_links to ../../build/hb_task_1b/hb_task_1b.egg-info/dependency_links.txt
+[2.059s] writing entry points to ../../build/hb_task_1b/hb_task_1b.egg-info/entry_points.txt
+[2.059s] writing requirements to ../../build/hb_task_1b/hb_task_1b.egg-info/requires.txt
+[2.059s] writing top-level names to ../../build/hb_task_1b/hb_task_1b.egg-info/top_level.txt
+[2.065s] reading manifest file '../../build/hb_task_1b/hb_task_1b.egg-info/SOURCES.txt'
+[2.066s] writing manifest file '../../build/hb_task_1b/hb_task_1b.egg-info/SOURCES.txt'
+[2.066s] running build
+[2.066s] running build_py
+[2.068s] running build_scripts
+[2.069s] copying scripts/controller.py -> /home/yolo/eyrc_hb/hb_task1b_ws/build/hb_task_1b/build/scripts-3.10
+[2.069s] running install
+[2.070s] running install_lib
+[2.073s] running install_data
+[2.074s] running install_egg_info
+[2.077s] removing '/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages/hb_task_1b-0.0.0-py3.10.egg-info' (and everything under it)
+[2.078s] Copying ../../build/hb_task_1b/hb_task_1b.egg-info to /home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages/hb_task_1b-0.0.0-py3.10.egg-info
+[2.079s] running install_scripts
+[2.106s] copying /home/yolo/eyrc_hb/hb_task1b_ws/build/hb_task_1b/build/scripts-3.10/controller.py -> /home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/hb_task_1b
+[2.106s] changing mode of /home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/hb_task_1b/service_node.py to 775
+[2.106s] changing mode of /home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/hb_task_1b/controller.py to 775
+[2.108s] writing list of installed files to '/home/yolo/eyrc_hb/hb_task1b_ws/build/hb_task_1b/install.log'
+[2.291s] Invoked command in '/home/yolo/eyrc_hb/hb_task1b_ws/src/hb_task_1b' returned '0': PYTHONPATH=/home/yolo/eyrc_hb/hb_task1b_ws/build/hb_task_1b/prefix_override:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hb_task_1b build --build-base /home/yolo/eyrc_hb/hb_task1b_ws/build/hb_task_1b/build install --record /home/yolo/eyrc_hb/hb_task1b_ws/build/hb_task_1b/install.log --single-version-externally-managed

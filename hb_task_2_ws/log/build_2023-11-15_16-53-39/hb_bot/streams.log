@@ -1,0 +1,39 @@
+[1.112s] Invoking command in '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble /usr/bin/cmake --build /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot -- -j4 -l4
+[3.483s] Invoked command in '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble /usr/bin/cmake --build /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot -- -j4 -l4
+[3.818s] Invoking command in '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble /usr/bin/cmake --install /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot
+[3.885s] -- Install configuration: ""
+[3.887s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//launch
+[3.888s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//launch/Spawn_bot.launch.py
+[3.888s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//launch/multi_bot_spawn.launch.py
+[3.894s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes
+[3.894s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_1.dae
+[3.894s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_3.jpg
+[3.895s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/wheel.stl
+[3.895s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_1.jpg.001.jpg
+[3.895s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_1.jpg
+[3.895s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_2.dae
+[3.895s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_2.jpg
+[3.896s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_2.jpg.001.jpg
+[3.896s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_3.jpg.001.jpg
+[3.896s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_3.dae
+[3.896s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf
+[3.896s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf/materials.xacro
+[3.896s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf/hb_bot_1.urdf.xacro
+[3.897s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf/hb_bot_2.urdf.xacro
+[3.897s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf/hb_bot_3.urdf.xacro
+[3.897s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/ament_index/resource_index/package_run_dependencies/hb_bot
+[3.897s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/ament_index/resource_index/parent_prefix_path/hb_bot
+[3.897s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/environment/ament_prefix_path.sh
+[3.897s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/environment/ament_prefix_path.dsv
+[3.898s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/environment/path.sh
+[3.898s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/environment/path.dsv
+[3.898s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/local_setup.bash
+[3.898s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/local_setup.sh
+[3.898s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/local_setup.zsh
+[3.898s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/local_setup.dsv
+[3.899s] -- Installing: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/package.dsv
+[3.931s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/ament_index/resource_index/packages/hb_bot
+[3.931s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/cmake/hb_botConfig.cmake
+[3.931s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/cmake/hb_botConfig-version.cmake
+[3.932s] -- Up-to-date: /home/yolo/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/package.xml
+[3.932s] Invoked command in '/home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/yolo/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/yolo/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/opt/ros/humble /usr/bin/cmake --install /home/yolo/eyrc_hb/hb_task_2_ws/build/hb_bot
